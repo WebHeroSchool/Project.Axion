@@ -4,7 +4,7 @@
 
 body {
   margin: 0 auto;
-  padding: 0 5.2%;
+  padding: 0 6%;
   font-family: Gotham Pro, Arial, serif;
   width: auto;
   max-width: 1170px;
@@ -34,7 +34,10 @@ body {
 
 .navigation__link {
   margin-right: 6.7%;
-  /*flex: 1;*/
+}
+
+.navigation__link_s {
+  /*margin-right: 5%;*/
 }
 
 .navigation__form {
@@ -65,7 +68,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex: 1;
-  margin-right: 1%;
+  margin: 2px 0.9% 0 0;
 }
 
 .navigation__img {
@@ -128,7 +131,7 @@ a {
 .catalog__title {
   margin: 0;
   padding-bottom: 12px;
-  width: 17%;
+  width: 25%;
   font-size: 30px;
   line-height: 29px;
 }
@@ -157,7 +160,7 @@ button:hover {
 }
 
 .catalog__subtitle {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   text-align: center;
   font-size: 22px;
 }
@@ -166,24 +169,50 @@ button:hover {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
+  margin-bottom: 26px;
 }
 
 .catalog__item {
   /*flex: 1;*/
-  width: 21%;
+  width: 20%;
   height: 261px;
+  min-width: 205px;
+}
+
+.catalog__item_1 {
+  margin-right: 3.5%;
+}
+
+.catalog__item_1:before{
+  position: relative;
+  content: "";
+  background: #000;
+  opacity: 0.2;
+  width: 1px;
+  height: 100.18px;
+  float: right;
+  top: 42px;
+  left: 15%;
 }
 
 .catalog__img {
-  margin-bottom: 24px;
+  margin-left: 5%;
+  margin-bottom: 23px;
 }
 
 .catalog__link {
+  display: block;
   font-weight: normal;
-  line-height: 11px;
+  line-height: 16px;
+}
+
+.catalog__wrap {
+  display: flex;
+  justify-content: space-between;
 }
 
 .catalog__price {
+  display: inline;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
@@ -344,4 +373,43 @@ button:hover {
 }
 
 img { max-width: 100%; }
+
+@media (max-width:1070px) {
+  body {
+    padding: 0 4.6%;
+  }
+  .catalog__wrapper {
+    height: 253px;
+  }
+  .navigation {
+    margin-bottom: 34px;
+  }
+  .navigation__img {
+    width: 61px;
+    height: 64px;
+    margin-right: 3%;
+    padding-top: 3px;
+  }
+  .navigation__banner {
+    padding-top: 26px;
+  }
+  .navigation__submenu {
+    margin-top: 3px;
+    margin-right: 0.5%;
+  }
+  .navigation__link {
+    margin-right: 7.5%;
+  }
+  .navigation__form {
+  padding-top: 8px;
+  margin-right: 2.4%;
+  }
+  .navigation__search {
+    width: 8.6%;
+  }
+  .catalog__wrapper {
+    padding-left: 53px;
+    margin-bottom: 60px;
+  }
+}
 
