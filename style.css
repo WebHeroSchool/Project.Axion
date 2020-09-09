@@ -526,7 +526,7 @@ button:hover {
 
   .catalog__item:nth-child(n+3) { display: none; }
 
-  .catalog__item:first-child { 
+  .catalog__item:first-child {
     margin: 0 11.2% 0 11%;
   }
 
@@ -578,7 +578,7 @@ button:hover {
     width: auto;
   }
 
-  .catalog__item_1:before {
+  .catalog__item_1::before {
     display: none;
   }
 
