@@ -627,7 +627,7 @@ button:hover {
   }
 }
 
-@media (max-width: 463px) {
+@media (max-width: 551px) {
   .navigation {
     height: 55px;
   }
