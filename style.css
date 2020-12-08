@@ -975,7 +975,7 @@ button:hover {
     top: 3px;
     right: -3px;
     background-color: #fff;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     transform: rotate(-45deg);
   }
 
@@ -1148,10 +1148,6 @@ button:hover {
     margin-top: 65px;
   }
 
-  .stories__column:nth-child(2) {
-    display: none;
-  }
-
   .stories__title {
     font-size: 25px;
     margin-left: 26%;
@@ -1159,6 +1155,10 @@ button:hover {
 
   .stories__column {
     width: 70%;
+  }
+
+  .stories__column:nth-child(2) {
+    display: none;
   }
 
   .stories__foto {
