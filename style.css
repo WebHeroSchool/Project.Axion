@@ -1381,13 +1381,13 @@ button:hover {
     margin-bottom: 84px;
   }
 
-  .stories__column:nth-child(2) {
-    display: none;
-  }
-
   .stories__column {
     margin: 0;
     width: 75%;
+  }
+
+  .stories__column:nth-child(2) {
+    display: none;
   }
 
   .stories__foto {
