@@ -1208,7 +1208,7 @@ button:hover {
 }
 
 @media (max-width: 554px) {
-   .catalog__scale {
+  .catalog__scale {
     width: 40%;
   }
 
