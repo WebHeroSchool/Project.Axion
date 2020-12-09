@@ -180,11 +180,11 @@ button:hover {
   min-width: 205px;
 }
 
-.catalog__item_1 {
+.catalog__item_indent {
   margin-right: 3.5%;
 }
 
-.catalog__item_1::before {
+.catalog__item_indent::before {
   position: relative;
   content: "";
   background: #000;
@@ -760,7 +760,7 @@ button:hover {
     height: 352px;
   }
 
-  .catalog__item_1 {
+  .catalog__item_indent {
     margin-right: 0;
   }
 
@@ -793,7 +793,7 @@ button:hover {
     margin-right: 27.7%;
   }
 
-  .catalog__price_1 {
+  .catalog__price_indent {
     margin-right: 22.6%;
   }
 
@@ -819,7 +819,7 @@ button:hover {
     width: auto;
   }
 
-  .catalog__item_1::before {
+  .catalog__item_indent::before {
     display: none;
   }
 
@@ -851,7 +851,7 @@ button:hover {
   }
 
   .video__column {
-    margin-top: 46px;
+    margin-top: 35px;
     width: 100%;
     text-align: center;
   }
@@ -917,7 +917,7 @@ button:hover {
     margin-bottom: 34px;
   }
 
-  .stories__next_1 {
+  .stories__next_other {
     width: 106%;
   }
 
@@ -941,7 +941,7 @@ button:hover {
     left: -9px;
   }
 
-  .stories__arrow_white1 {
+  .stories__arrow_whitey {
     width: 70px;
   }
 
@@ -1172,6 +1172,15 @@ button:hover {
 }
 
 @media (max-width: 655px) {
+  .catalog__scale button {
+    height: 14px;
+    width: 14px;
+  }
+
+  .video__title {
+    font-size: 28px;
+  }
+
   .info {
     font-size: 15px;
   }
@@ -1199,6 +1208,10 @@ button:hover {
 }
 
 @media (max-width: 554px) {
+   .catalog__scale {
+    width: 40%;
+  }
+
   .video__play {
     width: 420px;
     height: 235px;
@@ -1312,7 +1325,8 @@ button:hover {
   }
 
   .catalog__wrap {
-    width: 133%;
+    justify-content: space-between;
+    width: 107%;
   }
 
   .catalog__price {
@@ -1321,7 +1335,7 @@ button:hover {
   }
 
   .catalog__scale {
-    width: 23%;
+    width: 28%;
   }
 
   .catalog__scale button {
@@ -1347,7 +1361,7 @@ button:hover {
   }
 
   .video__column {
-    margin-top: 15px;
+    margin-top: 5px;
     margin-right: 0;
   }
 
@@ -1591,7 +1605,7 @@ button:hover {
     max-width: initial;
   }
 
-  .input__img_1 {
+  .input__img_small {
     width: 9px;
   }
 
@@ -1639,7 +1653,7 @@ button:hover {
   }
 
   .catalog__wrap {
-    width: 132%;
+    width: 105%;
   }
 
   .video__title {
